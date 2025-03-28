@@ -26,157 +26,289 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <title>Tariku M| App&Web Developer</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title>Tariku M | Full Stack Web Developer</title>
   </head>
 
   <body>
     <!-- Navbar -->
     <nav>
-      <h1>Tariku M</h1>
-      <ul class="navigation">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-      </ul>
-      <button class="burger-menu" id="burger-menu">
-        <ion-icon class="bars" name="menu-outline"></ion-icon>
-        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
-      </button>
+      <div class="nav-container">
+        <h1 class="logo">Tariku M</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link contact-btn">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+      </div>
     </nav>
     
-    <p> </p>
-
     <!-- Hero Section -->
     <section class="hero" id="about">
-      <img
-        src="assets/images/wfh_3.svg"
-        alt="Tariku M"
-        loading="lazy"
-        class="hero-img"
-      />
-      <div class="bio animate__animated animate__shakeX">
-        <h2 class="bio-title">About Me</h2>
-        <p class="bio-text">
-      Self-motivated App Developer with around 3 of experience working 
-	  on multiple projects.Passionate and hardworking for meeting deadlines.
-      Interested in roles indulging best practices.Eager and fast
-	  learner for new technologies and methodologies .
-        </p>
+      <div class="hero-container">
+        <div class="hero-text">
+          <h2 class="hero-subtitle">Hello, I'm</h2>
+          <h1 class="hero-title">Tariku Menwyelet</h1>
+          <h3 class="hero-role">Full Stack Web Developer</h3>
+          <p class="hero-description">
+            I build modern, scalable web applications using cutting-edge technologies like Next.js, TypeScript, and PostgreSQL. 
+            With 3 years of experience, I specialize in creating performant full-stack solutions 
+            with intuitive user interfaces and robust backend systems.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="assets/images/wfh_3.svg"
+            alt="Tariku M"
+            loading="lazy"
+            class="hero-img"
+          />
+        </div>
       </div>
     </section>
 
-
+    <!-- About Section -->
+    <section class="about-section">
+      <div class="about-container">
+        <div class="about-image">
+          <div class="image-frame"></div>
+        </div>
+        <div class="about-text">
+          <h2 class="section-title">About Me</h2>
+          <p class="about-description">
+            I'm a full-stack developer specializing in modern web technologies with a strong focus on 
+            TypeScript across the entire stack. My expertise includes building server-rendered applications 
+            with Next.js, designing database architectures with PostgreSQL, and creating maintainable 
+            codebases with Prisma ORM.
+          </p>
+          <p class="about-description">
+            I'm passionate about developer experience and system architecture, constantly exploring 
+            new ways to improve application performance and development workflows. My approach combines 
+            technical excellence with business understanding to deliver solutions that drive real value.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <span class="detail-label">Name:</span>
+              <span class="detail-value">Tariku Menwyelet</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Email:</span>
+              <span class="detail-value">tarikum3@gmail.com</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Experience:</span>
+              <span class="detail-value">3 Years</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Speciality:</span>
+              <span class="detail-value">Full Stack Web Development</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Skills section -->
     <section class="skills" id="skills">
-      <h2 class="skill-header">My Top Skills</h2>
-
-      <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
-          <img
-            src="assets/icons/Android_robot.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-css3.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-javascript.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-        </div>
-
-        <div class="second-set animate__animated animate__pulse">
-          <img
-            src="assets/icons/icons8-bootstrap.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-react-native.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-git.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
+      <div class="skills-container">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <p class="section-subtitle">Technologies I work with</p>
+        
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="assets/icons/nextjs-svg.svg" alt="Next.js">
+            </div>
+            <h3 class="skill-title">Next.js</h3>
+            <p class="skill-description">Production-grade React framework for server-side rendering and static generation</p>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="assets/icons/typescript-svg.svg" alt="TypeScript">
+            </div>
+            <h3 class="skill-title">TypeScript</h3>
+            <p class="skill-description">Strongly typed JavaScript for scalable application development</p>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="assets/icons/postgresql-svg.svg" alt="PostgreSQL">
+            </div>
+            <h3 class="skill-title">PostgreSQL</h3>
+            <p class="skill-description">Advanced relational database with extensibility and performance</p>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="assets/icons/prisma-svg.svg" alt="Prisma">
+            </div>
+            <h3 class="skill-title">Prisma</h3>
+            <p class="skill-description">Next-generation ORM for TypeScript and Node.js applications</p>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="assets/icons/tailwindcss-svg.svg" alt="Tailwind CSS">
+            </div>
+            <h3 class="skill-title">Tailwind CSS</h3>
+            <p class="skill-description">Utility-first CSS framework for rapid UI development</p>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="assets/icons/git-svg.svg" alt="Git">
+            </div>
+            <h3 class="skill-title">Git</h3>
+            <p class="skill-description">Version control and collaborative development workflows</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Projects section -->
-    <section class="projects" id="projects">
-      <h2 class="projects-title">Some of my Recent Projects</h2>
-      <div class="projects-container">
-        <div class="project-container project-card">
-          <img
-            src="assets/images/OCRScanner.png"
-            alt="OCR Scanner"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">OCR Scanner</h3>
-          <p class="project-details">
-           * Android app developed by Java programming language 
-           *Scan multiple images selected for text detection 
-           *Using Google Text Recognition API
-           *Glide Libraries used for efficient Image handling
-           *Built in Gallery integrated
-          </p>
-		  <a href="https://github.com/tarikum3/OcrScanner.git" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/YegzuEcommerce.png"
-            alt="Yegzu Ecommerce"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Yegzu Ecommerce</h3>
-          <p class="project-details">
-           * E-commerce application using React|s, Java Script, CSS3, Bootstrap4
-           * Backend Implemented using Node.js,Express libraries,Apollo packages with MongoDB
-           * Built custom components for UX-Library consisting  Filters, Dropdown, 
-            Carousel and Icons
-          </p>
-          <a href="https://github.com/tarikum3/yegzu.git" target="_blank" class="project-link">Check it Out</a>
-        </div>
 
+ <!-- Updated HTML with project-icon class -->
+<section class="projects" id="projects">
+  <div class="projects-container">
+    <h2 class="section-title">My <span>Projects</span></h2>
+    <p class="section-subtitle">Some of my recent work</p>
+    
+    <div class="projects-grid">
+      <!-- Ecommerce Project -->
+      <div class="project-card">
+        <div class="project-image">
+          <img class="project-icon" src="assets/icons/ecommerce-store-svg.svg" alt="Ecommerce Platform" loading="lazy">
+          <div class="project-links">
+            <a href="https://github.com/tarikum3/Ecommerce-nextjs-typescript-tailwind" target="_blank" class="project-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://modalinda-tarikum3.vercel.app/" target="_blank" class="project-link">
+              <ion-icon name="eye-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Ecommerce Platform</h3>
+          <p class="project-description">
+            Full-featured e-commerce solution with Next.js frontend, TypeScript middleware, 
+            and PostgreSQL database. Features Stripe integration and inventory management.
+          </p>
+          <div class="project-tech">
+            <span>Next.js</span>
+            <span>TypeScript</span>
+            <span>Prisma</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Scheduler App Project -->
+      <div class="project-card">
+        <div class="project-image">
+          <img  src="assets/icons/schedular-app-svg.svg" alt="Scheduler App" loading="lazy">
+          <div class="project-links">
+            <a href="https://github.com/tarikum3/schedularApp" target="_blank" class="project-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://schedular-app-eight.vercel.app/" target="_blank" class="project-link">
+              <ion-icon name="eye-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Scheduler App</h3>
+          <p class="project-description">
+            Calendar application with real-time updates, built using Next.js API routes, 
+            Prisma ORM, and Tailwind CSS. Features drag-and-drop functionality and team collaboration.
+          </p>
+          <div class="project-tech">
+            <span>Next.js</span>
+            <span>Prisma</span>
+            <span>Tailwind</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <p class="section-subtitle">Have a project in mind or want to discuss opportunities?</p>
+        
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-item">
+              <div class="info-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="info-content">
+                <h3>Email</h3>
+                <p>tarikum3@gmail.com</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+              <div class="info-content">
+                <h3>GitHub</h3>
+                <p>github.com/tarikum3</p>
+              </div>
+            </div>
+          </div>
+          
+  
+        </div>
       </div>
     </section>
-
-
-
-
-    <!-- Scroll to top -->
-    <i class="scroll-up" id="scroll-up"
-      ><img
-        src="assets/icons/icons8-upward-arrow.gif"
-        class="socicon up-arrow"
-        alt=""
-    /></i>
 
     <!-- Footer section -->
     <footer>
-      <p class="copy">
-         Gmail:
-        <a href="tarikum3@gmail.com" target="_blank"
-          >tarikum3@gmail.com</a
-        >
-      </p>
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h3 class="footer-logo">Tariku M</h3>
+            <p>Full stack web developer specializing in modern JavaScript technologies and robust system architecture.</p>
+          </div>
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact Info</h3>
+            <p><ion-icon name="mail-outline"></ion-icon> tarikum3@gmail.com</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Tariku M. All rights reserved.</p>
+        </div>
+      </div>
     </footer>
+
+    <!-- Scroll to top -->
+    <div class="scroll-up" id="scroll-up">
+      <ion-icon name="arrow-up-outline"></ion-icon>
+    </div>
 
     <!-- Website scripts -->
     <script src="assets/js/app.js"></script>
