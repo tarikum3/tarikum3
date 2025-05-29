@@ -20,7 +20,4 @@
 - Database design with PostgreSQL
 - Full-stack development workflows
 
-📫 **How to reach me**:  
-[![Email](https://img.shields.io/badge/-tarikum3@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:tarikum3@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
 
