@@ -1,4 +1,4 @@
-# Hi there 👋 I'm Tariku Menwyelet
+# Hi there 👋 I'm Tariku Minwyelet
 
 ## Full Stack Web Developer
 
