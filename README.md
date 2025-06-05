@@ -1,6 +1,6 @@
 # Hi there 👋 I'm Tariku Minwyelet
 
-## Full Stack Web Developer
+## Full Stack Developer
 
  
 💻 **Tech Stack**:  
